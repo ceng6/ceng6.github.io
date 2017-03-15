@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 255, 0.3);
+  z-index: 99; }
+  header ul {
+    float: right;
+    width: 400px; }
+    header ul li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      line-height: 100px; }
+      header ul li a {
+        font-size: 22px;
+        color: #666; }
+
+.l_a {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px; }
+
+.l_a h1 {
+  width: 172px;
+  height: 172px;
+  background: url(../images/logo.png) no-repeat center;
+  margin: 20px auto;
+  background-size: cover; }
+
+.l_a h1 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: -99999em; }
+
+.l_a p {
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #ccc; }
+
+.work {
+  width: 100%;
+  margin: 50px auto; }
+  .work .mywork {
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px; }
+  .work ul .r-first {
+    margin-left: 30px; }
+  .work ul li {
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 9px;
+    overflow: hidden; }
+    .work ul li a {
+      width: 100%;
+      height: 100%;
+      display: block; }
+    .work ul li img {
+      width: 100%;
+      height: 100%; }
+    .work ul li .tou {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4);
+      display: none; }
+      .work ul li .tou p {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        line-height: 300px; }
+
+.l_r {
+  width: 200px;
+  height: 50px;
+  margin: 30px auto;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 50px; }
+  .l_r a {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.work ul li:hover .tou {
+  display: block; }
+
+.work ul li:hover img {
+  transform: scale(1.2, 1.2) perspective(800px);
+  transformStyle: preserve-3d;
+  transition: 1s all ease; }
+
+.l_r:hover {
+  transition: 1s all ease;
+  width: 300px;
+  border: 2px solid #f00; }
+
+.l_r:hover a {
+  color: #f00; }
+
+.jianli h2 {
+  width: 100%;
+  line-height: 100px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: -30px; }
+
+.jianli ul {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 40px; }
+  .jianli ul li {
+    width: 25%;
+    height: 100%;
+    padding-top: 20px;
+    float: left; }
+    .jianli ul li div {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      background: url(../images/age.png) no-repeat center;
+      margin: 0 auto; }
+    .jianli ul li p {
+      width: 100px;
+      margin: 0 auto;
+      font-size: 22px;
+      color: #333;
+      line-height: 40px;
+      text-align: center;
+      -webkit-transform: rotate(-30deg);
+      transform: rotate(-30deg); }
+    .jianli ul li .pos {
+      background: url(../images/location.png) no-repeat center; }
+    .jianli ul li .status {
+      background: url(../images/status.png) no-repeat center; }
+
+.jianli ul li div:hover {
+  box-shadow: 0 0 2px #999;
+  background-color: #fff;
+  border: 6px solid #ccc; }
+
+.h2 {
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px; }
+
+section {
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+  section .l_box {
+
+    width: 30%;
+    height: 200px;
+    margin: 80px 0 40px 20px;
+    border-radius: 9px; }
+    section .l_box p {
+      line-height: 45px;
+      font-size: 24px;
+      border-bottom: 1px dashed #ccc;
+      padding-left: 20px; }
+
+.boss {
+  width: 100%;
+  height: 100%;
+  background: url(../images/tu1.jpg) no-repeat;
+  background-size: cover; }

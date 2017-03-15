@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+img{
+	display:block;
+	}
+ul, ol, dl{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	color:#000;
+	}
+.clearfix:after{
+	display:block;
+	clera:both;
+	content:"";
+	}
+.clearfix{
+	zoom:1;
+	}
+.wrap{
+	margin:0 auto;
+	}	
+	
